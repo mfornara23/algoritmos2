@@ -14,6 +14,6 @@ Imprime N líneas con los números ordenados de menor a mayor
 
 ### Restricciones
 
-Utilizar la técnica heapify.
-Resolver en orden temporal: O(N log N) promedio, siendo el tamaño del conjunto.
-Resolver en orden espacial auxiliar (sin contar el array de números): O(1)
+- Utilizar la técnica heapify.
+- Resolver en orden temporal: O(N log N) promedio, siendo el tamaño del conjunto.
+- Resolver en orden espacial auxiliar (sin contar el array de números): O(1)
