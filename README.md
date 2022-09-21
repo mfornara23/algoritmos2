@@ -19,3 +19,25 @@ Imprime el único número entero: la cantidad real de usuarios (sin repetidos).
 Hash cerrado (open addressing) que implementa la [siguiente función de hash](https://cseweb.ucsd.edu/~kube/cls/100/Lectures/lec16/lec16-15.html) y double-hashing para la resolución de colisiones.
 
 Para contar la cantidad de mail sin repertir retorna count de los elemnentos insertados que no colisionaron a través de la operación `getCount()`
+
+## Ejercicio 2
+
+# SORTING	Nombre de archivo: ejercicio2.cpp
+
+## Letra
+Se desea ordenar un conjunto de números enteros, no acotados. Se solicita que implemente un algoritmo basado en el uso de un heap, en particular mediante el uso de la técnica de “heapificación” (heapify en inglés).
+
+### Input
+
+La primera línea de la entrada contiene un número entero positivo N (2 ≤ N ≤ 10^5), el largo del conjunto de números.
+
+Las siguientes N líneas contienen los números del conjunto.
+
+### Salida
+Imprime N líneas con los números ordenados de menor a mayor
+
+### Restricciones
+
+- Utilizar la técnica heapify.
+- Resolver en orden temporal: O(N log N) promedio, siendo el tamaño del conjunto.
+- Resolver en orden espacial auxiliar (sin contar el array de números): O(1)
